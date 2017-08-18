@@ -1,0 +1,10 @@
+@import "~normalize.css";
+
+@import "styles/generated/mobile-sprites";
+@import "styles/generated/desktop-sprites";
+
+@import "routes/app";
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+}
