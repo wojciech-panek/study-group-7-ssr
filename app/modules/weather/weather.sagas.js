@@ -5,12 +5,12 @@ import { WeatherActions, WeatherTypes } from './weather.redux';
 import { get } from '../api/api.sagas';
 
 
-export function* getWeatherSaga() {
+export function* getWeatherSaga({ lat, lon }) {
   try {
     const data = yield call(get, 'api/openweathermap/', {
-      'lat': 52.414265,
-      'lon': 16.9179619,
-      'appid': envConfig.openweathermap.apiKey,
+      lat,
+      lon,
+      appid: envConfig.openweathermap.apiKey,
     });
 
     yield put(WeatherActions.getWeatherSuccess(data));

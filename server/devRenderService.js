@@ -10,6 +10,7 @@ const appPort = argv.port || process.env.PORT || '3000';
 const port = exports.port = parseInt(appPort, 10) + 1;
 const chalk = require('chalk');
 
+
 const debug = console.log.bind(console, chalk.cyan('[ssr service]'));
 
 function ensureAllGeneratedFilesExist() {

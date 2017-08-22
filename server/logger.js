@@ -32,6 +32,17 @@ Localhost: ${chalk.magenta(`http://${host}:${port}`)}
 ${chalk.blue(`Press ${chalk.italic('CTRL-C')} to stop`)}
     `);
   },
+
+  apiStarted: (port, host) => {
+    console.log(`Api started ! ${chalk.green('✓')}`);
+
+    console.log(`
+${chalk.bold('Access URLs:')}${divider}
+Localhost: ${chalk.magenta(`http://${host}:${port}`)}
+      LAN: ${chalk.magenta(`http://${ip.address()}:${port}`)}
+${divider}
+    `);
+  },
 };
 
 module.exports = logger;

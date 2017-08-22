@@ -10,26 +10,26 @@ import App from './routes';
 import HtmlDocument from './htmlDocument';
 import rootSaga from './modules/sagas';
 
-function renderAppToString(store, url, context) {
+function renderAppToString(store, url, context, userAgent) {
   return renderToString(
     <Provider store={store}>
       <StaticRouter
         location={url}
         context={context}
       >
-        <App />
+        <App userAgent={userAgent} />
       </StaticRouter>
     </Provider>
   );
 }
 
-function renderAppToStringAtLocation(url, { webpackDllNames = [], assets, hostUrl }, callback) {
+function renderAppToStringAtLocation(url, { webpackDllNames = [], assets, hostUrl, userAgent }, callback) {
   const context = {};
   const store = configureStore();
 
   store.runSaga(rootSaga).done.then(() => {
     const state = store.getState().toJS();
-    const appMarkup = renderAppToString(store, url, context);
+    const appMarkup = renderAppToString(store, url, context, userAgent);
 
     const doc = renderToString(
       <HtmlDocument

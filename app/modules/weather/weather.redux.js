@@ -3,7 +3,7 @@ import { Record, List, fromJS } from 'immutable';
 
 
 export const { Types: WeatherTypes, Creators: WeatherActions } = createActions({
-  getWeather: ['latitude', 'longitude'],
+  getWeather: ['lat', 'lon'],
   getWeatherSuccess: ['data'],
   getWeatherFailure: ['error'],
 }, { prefix: 'WEATHER_' });
