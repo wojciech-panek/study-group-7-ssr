@@ -127,21 +127,21 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(DEFAULT_LOCALE, 'DEFAULT_LOCALE', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/locales/locales.redux.js');
+  __REACT_HOT_LOADER__.register(DEFAULT_LOCALE, 'DEFAULT_LOCALE', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/locales/locales.redux.js');
 
-  __REACT_HOT_LOADER__.register(LocalesTypes, 'LocalesTypes', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/locales/locales.redux.js');
+  __REACT_HOT_LOADER__.register(LocalesTypes, 'LocalesTypes', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/locales/locales.redux.js');
 
-  __REACT_HOT_LOADER__.register(LocalesActions, 'LocalesActions', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/locales/locales.redux.js');
+  __REACT_HOT_LOADER__.register(LocalesActions, 'LocalesActions', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/locales/locales.redux.js');
 
-  __REACT_HOT_LOADER__.register(LocalesRecord, 'LocalesRecord', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/locales/locales.redux.js');
+  __REACT_HOT_LOADER__.register(LocalesRecord, 'LocalesRecord', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/locales/locales.redux.js');
 
-  __REACT_HOT_LOADER__.register(INITIAL_STATE, 'INITIAL_STATE', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/locales/locales.redux.js');
+  __REACT_HOT_LOADER__.register(INITIAL_STATE, 'INITIAL_STATE', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/locales/locales.redux.js');
 
-  __REACT_HOT_LOADER__.register(setLanguageHandler, 'setLanguageHandler', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/locales/locales.redux.js');
+  __REACT_HOT_LOADER__.register(setLanguageHandler, 'setLanguageHandler', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/locales/locales.redux.js');
 
-  __REACT_HOT_LOADER__.register(HANDLERS, 'HANDLERS', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/locales/locales.redux.js');
+  __REACT_HOT_LOADER__.register(HANDLERS, 'HANDLERS', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/locales/locales.redux.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/locales/locales.redux.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/locales/locales.redux.js');
 }();
 
 ;
@@ -213,17 +213,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(WeatherTypes, 'WeatherTypes', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/weather/weather.redux.js');
+  __REACT_HOT_LOADER__.register(WeatherTypes, 'WeatherTypes', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/weather/weather.redux.js');
 
-  __REACT_HOT_LOADER__.register(WeatherActions, 'WeatherActions', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/weather/weather.redux.js');
+  __REACT_HOT_LOADER__.register(WeatherActions, 'WeatherActions', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/weather/weather.redux.js');
 
-  __REACT_HOT_LOADER__.register(CampaignRecord, 'CampaignRecord', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/weather/weather.redux.js');
+  __REACT_HOT_LOADER__.register(CampaignRecord, 'CampaignRecord', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/weather/weather.redux.js');
 
-  __REACT_HOT_LOADER__.register(INITIAL_STATE, 'INITIAL_STATE', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/weather/weather.redux.js');
+  __REACT_HOT_LOADER__.register(INITIAL_STATE, 'INITIAL_STATE', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/weather/weather.redux.js');
 
-  __REACT_HOT_LOADER__.register(getWeatherSuccessHandler, 'getWeatherSuccessHandler', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/weather/weather.redux.js');
+  __REACT_HOT_LOADER__.register(getWeatherSuccessHandler, 'getWeatherSuccessHandler', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/weather/weather.redux.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/weather/weather.redux.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/weather/weather.redux.js');
 }();
 
 ;
@@ -266,7 +266,7 @@ module.exports = require("reduxsauce");
 
 var _default = __WEBPACK_IMPORTED_MODULE_0_lodash_defaultsDeep___default()({
   api: {
-    serverUrl: 'http://localhost:3000/',
+    serverUrl: 'http://localhost:4000/',
     clientUrl: ''
   },
   name: 'development'
@@ -280,7 +280,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/tymoteusz/Dev/study-group-7-ssr/app/environment/development.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/wpanek/Projects/study-group-7-ssr/app/environment/development.js');
 }();
 
 ;
@@ -404,9 +404,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(renderAppToString, 'renderAppToString', '/Users/tymoteusz/Dev/study-group-7-ssr/app/server.js');
+  __REACT_HOT_LOADER__.register(renderAppToString, 'renderAppToString', '/Users/wpanek/Projects/study-group-7-ssr/app/server.js');
 
-  __REACT_HOT_LOADER__.register(renderAppToStringAtLocation, 'renderAppToStringAtLocation', '/Users/tymoteusz/Dev/study-group-7-ssr/app/server.js');
+  __REACT_HOT_LOADER__.register(renderAppToStringAtLocation, 'renderAppToStringAtLocation', '/Users/wpanek/Projects/study-group-7-ssr/app/server.js');
 }();
 
 ;
@@ -430,7 +430,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/tymoteusz/Dev/study-group-7-ssr/app/environment/base.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/wpanek/Projects/study-group-7-ssr/app/environment/base.js');
 }();
 
 ;
@@ -540,9 +540,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(HtmlDocument, 'HtmlDocument', '/Users/tymoteusz/Dev/study-group-7-ssr/app/htmlDocument.js');
+  __REACT_HOT_LOADER__.register(HtmlDocument, 'HtmlDocument', '/Users/wpanek/Projects/study-group-7-ssr/app/htmlDocument.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/tymoteusz/Dev/study-group-7-ssr/app/htmlDocument.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/wpanek/Projects/study-group-7-ssr/app/htmlDocument.js');
 }();
 
 ;
@@ -601,11 +601,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(appLocales, 'appLocales', '/Users/tymoteusz/Dev/study-group-7-ssr/app/i18n.js');
+  __REACT_HOT_LOADER__.register(appLocales, 'appLocales', '/Users/wpanek/Projects/study-group-7-ssr/app/i18n.js');
 
-  __REACT_HOT_LOADER__.register(formatTranslationMessages, 'formatTranslationMessages', '/Users/tymoteusz/Dev/study-group-7-ssr/app/i18n.js');
+  __REACT_HOT_LOADER__.register(formatTranslationMessages, 'formatTranslationMessages', '/Users/wpanek/Projects/study-group-7-ssr/app/i18n.js');
 
-  __REACT_HOT_LOADER__.register(translationMessages, 'translationMessages', '/Users/tymoteusz/Dev/study-group-7-ssr/app/i18n.js');
+  __REACT_HOT_LOADER__.register(translationMessages, 'translationMessages', '/Users/wpanek/Projects/study-group-7-ssr/app/i18n.js');
 }();
 
 ;
@@ -733,15 +733,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(parseJSON, 'parseJSON', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/api/api.sagas.js');
+  __REACT_HOT_LOADER__.register(parseJSON, 'parseJSON', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/api/api.sagas.js');
 
-  __REACT_HOT_LOADER__.register(getUrl, 'getUrl', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/api/api.sagas.js');
+  __REACT_HOT_LOADER__.register(getUrl, 'getUrl', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/api/api.sagas.js');
 
-  __REACT_HOT_LOADER__.register(requestSaga, 'requestSaga', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/api/api.sagas.js');
+  __REACT_HOT_LOADER__.register(requestSaga, 'requestSaga', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/api/api.sagas.js');
 
-  __REACT_HOT_LOADER__.register(get, 'get', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/api/api.sagas.js');
+  __REACT_HOT_LOADER__.register(get, 'get', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/api/api.sagas.js');
 
-  __REACT_HOT_LOADER__.register(post, 'post', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/api/api.sagas.js');
+  __REACT_HOT_LOADER__.register(post, 'post', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/api/api.sagas.js');
 }();
 
 ;
@@ -770,9 +770,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(selectLocalesDomain, 'selectLocalesDomain', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/locales/locales.selectors.js');
+  __REACT_HOT_LOADER__.register(selectLocalesDomain, 'selectLocalesDomain', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/locales/locales.selectors.js');
 
-  __REACT_HOT_LOADER__.register(selectLocalesLanguage, 'selectLocalesLanguage', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/locales/locales.selectors.js');
+  __REACT_HOT_LOADER__.register(selectLocalesLanguage, 'selectLocalesLanguage', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/locales/locales.selectors.js');
 }();
 
 ;
@@ -808,7 +808,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(createReducer, 'createReducer', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/reducers.js');
+  __REACT_HOT_LOADER__.register(createReducer, 'createReducer', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/reducers.js');
 }();
 
 ;
@@ -858,15 +858,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(RouterRecord, 'RouterRecord', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/router/router.redux.js');
+  __REACT_HOT_LOADER__.register(RouterRecord, 'RouterRecord', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/router/router.redux.js');
 
-  __REACT_HOT_LOADER__.register(INITIAL_STATE, 'INITIAL_STATE', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/router/router.redux.js');
+  __REACT_HOT_LOADER__.register(INITIAL_STATE, 'INITIAL_STATE', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/router/router.redux.js');
 
-  __REACT_HOT_LOADER__.register(locationChangeHandler, 'locationChangeHandler', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/router/router.redux.js');
+  __REACT_HOT_LOADER__.register(locationChangeHandler, 'locationChangeHandler', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/router/router.redux.js');
 
-  __REACT_HOT_LOADER__.register(HANDLERS, 'HANDLERS', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/router/router.redux.js');
+  __REACT_HOT_LOADER__.register(HANDLERS, 'HANDLERS', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/router/router.redux.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/router/router.redux.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/router/router.redux.js');
 }();
 
 ;
@@ -908,7 +908,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(rootSaga, 'rootSaga', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/sagas.js');
+  __REACT_HOT_LOADER__.register(rootSaga, 'rootSaga', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/sagas.js');
 }();
 
 ;
@@ -995,9 +995,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(sagaMiddleware, 'sagaMiddleware', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/store.js');
+  __REACT_HOT_LOADER__.register(sagaMiddleware, 'sagaMiddleware', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/store.js');
 
-  __REACT_HOT_LOADER__.register(configureStore, 'configureStore', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/store.js');
+  __REACT_HOT_LOADER__.register(configureStore, 'configureStore', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/store.js');
 }();
 
 ;
@@ -1324,9 +1324,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(iconMapping, 'iconMapping', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/weather/weather.icon.helper.js');
+  __REACT_HOT_LOADER__.register(iconMapping, 'iconMapping', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/weather/weather.icon.helper.js');
 
-  __REACT_HOT_LOADER__.register(weatherIconMaker, 'weatherIconMaker', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/weather/weather.icon.helper.js');
+  __REACT_HOT_LOADER__.register(weatherIconMaker, 'weatherIconMaker', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/weather/weather.icon.helper.js');
 }();
 
 ;
@@ -1412,9 +1412,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(getWeatherSaga, 'getWeatherSaga', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/weather/weather.sagas.js');
+  __REACT_HOT_LOADER__.register(getWeatherSaga, 'getWeatherSaga', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/weather/weather.sagas.js');
 
-  __REACT_HOT_LOADER__.register(weatherSaga, 'weatherSaga', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/weather/weather.sagas.js');
+  __REACT_HOT_LOADER__.register(weatherSaga, 'weatherSaga', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/weather/weather.sagas.js');
 }();
 
 ;
@@ -1474,11 +1474,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(selectWeatherDomain, 'selectWeatherDomain', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/weather/weather.selectors.js');
+  __REACT_HOT_LOADER__.register(selectWeatherDomain, 'selectWeatherDomain', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/weather/weather.selectors.js');
 
-  __REACT_HOT_LOADER__.register(selectWeather, 'selectWeather', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/weather/weather.selectors.js');
+  __REACT_HOT_LOADER__.register(selectWeather, 'selectWeather', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/weather/weather.selectors.js');
 
-  __REACT_HOT_LOADER__.register(selectClouds, 'selectClouds', '/Users/tymoteusz/Dev/study-group-7-ssr/app/modules/weather/weather.selectors.js');
+  __REACT_HOT_LOADER__.register(selectClouds, 'selectClouds', '/Users/wpanek/Projects/study-group-7-ssr/app/modules/weather/weather.selectors.js');
 }();
 
 ;
@@ -1617,9 +1617,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(AppComponent, 'AppComponent', '/Users/tymoteusz/Dev/study-group-7-ssr/app/routes/app.component.js');
+  __REACT_HOT_LOADER__.register(AppComponent, 'AppComponent', '/Users/wpanek/Projects/study-group-7-ssr/app/routes/app.component.js');
 
-  __REACT_HOT_LOADER__.register(App, 'App', '/Users/tymoteusz/Dev/study-group-7-ssr/app/routes/app.component.js');
+  __REACT_HOT_LOADER__.register(App, 'App', '/Users/wpanek/Projects/study-group-7-ssr/app/routes/app.component.js');
 }();
 
 ;
@@ -1667,11 +1667,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/tymoteusz/Dev/study-group-7-ssr/app/routes/app.container.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/wpanek/Projects/study-group-7-ssr/app/routes/app.container.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/Users/tymoteusz/Dev/study-group-7-ssr/app/routes/app.container.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/Users/wpanek/Projects/study-group-7-ssr/app/routes/app.container.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/tymoteusz/Dev/study-group-7-ssr/app/routes/app.container.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/wpanek/Projects/study-group-7-ssr/app/routes/app.container.js');
 }();
 
 ;
@@ -1827,9 +1827,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(weatherBackgroundMap, 'weatherBackgroundMap', '/Users/tymoteusz/Dev/study-group-7-ssr/app/routes/home/components/weatherWidget/weatherWidget.component.js');
+  __REACT_HOT_LOADER__.register(weatherBackgroundMap, 'weatherBackgroundMap', '/Users/wpanek/Projects/study-group-7-ssr/app/routes/home/components/weatherWidget/weatherWidget.component.js');
 
-  __REACT_HOT_LOADER__.register(WeatherWidget, 'WeatherWidget', '/Users/tymoteusz/Dev/study-group-7-ssr/app/routes/home/components/weatherWidget/weatherWidget.component.js');
+  __REACT_HOT_LOADER__.register(WeatherWidget, 'WeatherWidget', '/Users/wpanek/Projects/study-group-7-ssr/app/routes/home/components/weatherWidget/weatherWidget.component.js');
 }();
 
 ;
@@ -1877,11 +1877,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/tymoteusz/Dev/study-group-7-ssr/app/routes/home/components/weatherWidget/weatherWidget.container.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/wpanek/Projects/study-group-7-ssr/app/routes/home/components/weatherWidget/weatherWidget.container.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/Users/tymoteusz/Dev/study-group-7-ssr/app/routes/home/components/weatherWidget/weatherWidget.container.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/Users/wpanek/Projects/study-group-7-ssr/app/routes/home/components/weatherWidget/weatherWidget.container.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/tymoteusz/Dev/study-group-7-ssr/app/routes/home/components/weatherWidget/weatherWidget.container.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/wpanek/Projects/study-group-7-ssr/app/routes/home/components/weatherWidget/weatherWidget.container.js');
 }();
 
 ;
@@ -1946,7 +1946,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Home, 'Home', '/Users/tymoteusz/Dev/study-group-7-ssr/app/routes/home/home.component.js');
+  __REACT_HOT_LOADER__.register(Home, 'Home', '/Users/wpanek/Projects/study-group-7-ssr/app/routes/home/home.component.js');
 }();
 
 ;
@@ -1968,7 +1968,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/tymoteusz/Dev/study-group-7-ssr/app/routes/home/index.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/wpanek/Projects/study-group-7-ssr/app/routes/home/index.js');
 }();
 
 ;
@@ -2060,9 +2060,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(RootContainer, 'RootContainer', '/Users/tymoteusz/Dev/study-group-7-ssr/app/routes/index.js');
+  __REACT_HOT_LOADER__.register(RootContainer, 'RootContainer', '/Users/wpanek/Projects/study-group-7-ssr/app/routes/index.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/tymoteusz/Dev/study-group-7-ssr/app/routes/index.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/wpanek/Projects/study-group-7-ssr/app/routes/index.js');
 }();
 
 ;
@@ -2084,7 +2084,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/tymoteusz/Dev/study-group-7-ssr/app/routes/notFound/index.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/wpanek/Projects/study-group-7-ssr/app/routes/notFound/index.js');
 }();
 
 ;
@@ -2146,7 +2146,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(NotFound, 'NotFound', '/Users/tymoteusz/Dev/study-group-7-ssr/app/routes/notFound/notFound.component.js');
+  __REACT_HOT_LOADER__.register(NotFound, 'NotFound', '/Users/wpanek/Projects/study-group-7-ssr/app/routes/notFound/notFound.component.js');
 }();
 
 ;

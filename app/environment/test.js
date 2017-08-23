@@ -5,7 +5,7 @@ import base from './base';
 
 export default defaultsDeep({
   api: {
-    serverUrl: 'http://localhost:3000/',
+    serverUrl: 'http://localhost:4000/',
     clientUrl: '',
   },
 }, base);
