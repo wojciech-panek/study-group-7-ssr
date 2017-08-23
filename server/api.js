@@ -16,7 +16,7 @@ const customHost = argv.host || process.env.HOST;
 const host = customHost || null;
 const prettyHost = customHost || 'localhost';
 
-const port = argv.apiPort || process.env.API_PORT || 3002;
+const port = argv.apiPort || process.env.API_PORT || 4001;
 
 api.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
