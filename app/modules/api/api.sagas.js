@@ -2,6 +2,7 @@ import envConfig from 'env-config';
 import { call } from 'redux-saga/effects';
 import { assign } from 'lodash';
 import { stringify } from 'query-string';
+import Cache from '../cache/cache';
 
 
 export function parseJSON(response) {
@@ -23,9 +24,17 @@ export function* requestSaga(url, options) {
     'Content-Type': 'application/json',
   };
 
+  const cachedResponse = Cache.getRequest(url);
+  if (cachedResponse) {
+    console.log('request cache hit', url);
+    return cachedResponse;
+  }
+
   try {
     const response = yield call(fetch, url, assign({ headers }, options));
-    return yield call(parseJSON, response);
+    const parsedResponse = yield call(parseJSON, response);
+    Cache.setRequest(url, parsedResponse);
+    return parsedResponse;
   } catch (e) {
     return yield call(parseJSON, e);
   }

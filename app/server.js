@@ -9,6 +9,8 @@ import configureStore from './modules/store';
 import App from './routes';
 import HtmlDocument from './htmlDocument';
 import rootSaga from './modules/sagas';
+import Cache from './modules/cache/cache';
+
 
 function renderAppToString(store, url, context, userAgent) {
   return renderToString(
@@ -27,6 +29,14 @@ function renderAppToStringAtLocation(url, { webpackDllNames = [], assets, hostUr
   const context = {};
   const store = configureStore();
 
+  const cachedView = Cache.getView(url);
+
+  if (cachedView) {
+    console.log('view cache hit', url);
+    callback({ html: cachedView });
+    return;
+  }
+
   store.runSaga(rootSaga).done.then(() => {
     const state = store.getState().toJS();
     const appMarkup = renderAppToString(store, url, context, userAgent);
@@ -42,6 +52,7 @@ function renderAppToStringAtLocation(url, { webpackDllNames = [], assets, hostUr
     );
 
     const html = `<!DOCTYPE html>\n${doc}`;
+    Cache.setView(url, html);
     callback({ html });
   }).catch((e) => {
     callback({ error: e });
