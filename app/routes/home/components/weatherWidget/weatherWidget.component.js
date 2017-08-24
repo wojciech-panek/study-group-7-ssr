@@ -1,4 +1,5 @@
 import React, { PureComponent, PropTypes } from 'react';
+import { FormattedMessage } from 'react-intl';
 import { Card, CardHeader, CardMedia } from 'material-ui/Card';
 import CircularProgress from 'material-ui/CircularProgress';
 import weather0 from './weather/0.jpg';
@@ -7,6 +8,8 @@ import weather40 from './weather/40.jpg';
 import weather60 from './weather/60.jpg';
 import weather80 from './weather/80.jpg';
 import weather100 from './weather/100.jpg';
+import messages from './weatherWidget.messages';
+
 
 const weatherBackgroundMap = {
   0: weather0,
@@ -55,7 +58,7 @@ export class WeatherWidget extends PureComponent {
       <div className="weather-widget">
         <Card>
           <CardHeader
-            title="Current weather"
+            title={<FormattedMessage {...messages.title} />}
           />
 
           { !weather || !weather.size ?
