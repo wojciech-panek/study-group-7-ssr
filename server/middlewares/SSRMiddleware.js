@@ -35,6 +35,7 @@ module.exports = function SSRMiddleware(req, res) {
     webpackDllNames: extractWebpackDllNamesFromPackage(),
     lang: req.acceptsLanguages(appLocales),
     hostUrl: host,
+    userAgent: req.headers['user-agent'],
   };
 
   renderAppToStringAtLocation(req.url, options, (response) => {

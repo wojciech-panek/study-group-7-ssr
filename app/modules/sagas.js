@@ -1,9 +1,10 @@
-import { fork, all } from 'redux-saga/effects';
-import maintainersSaga from './maintainers/maintainers.sagas';
+import { all } from 'redux-saga/effects';
+
+import weatherSagas from './weather/weather.sagas';
 
 
 export default function* rootSaga() {
   yield all([
-    fork(maintainersSaga),
+    weatherSagas(),
   ]);
 }

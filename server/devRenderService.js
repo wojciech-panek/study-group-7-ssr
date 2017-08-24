@@ -6,9 +6,10 @@ const path = require('path');
 const express = require('express');
 const http = require('http');
 const argv = require('minimist')(process.argv.slice(2));
-const appPort = argv.port || process.env.PORT || '3000';
-const port = exports.port = parseInt(appPort, 10) + 1;
+const appPort = argv.port || process.env.PORT || '4000';
+const port = exports.port = parseInt(appPort, 10) + 2;
 const chalk = require('chalk');
+
 
 const debug = console.log.bind(console, chalk.cyan('[ssr service]'));
 
